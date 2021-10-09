@@ -4,7 +4,7 @@ A repo to download and preprocess ImageNet-1k dataset.
 
 ### Description of scripts:
 
-- `make_tfrecs.py` : Driver script
+- `make_tfrecs.py` : Driver script to make TFRecords from untarred ImageNet files.
 - `tfrecs_utils.py` : Utilities for making tfrecords.
 - `image_utils.py` : Utilities for image manipulation.
 - `valid_labels.txt` : Labels for validation set of ImageNet-1k.
