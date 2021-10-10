@@ -35,14 +35,14 @@ def _int64_feature(value):
 def _get_default_synset_path() -> str:
     self_path = __file__
     path_segments = self_path.split("/")
-    regnety_path = "/".join(path_segments[:-2])
+    regnety_path = "/".join(path_segments[:-1])
     return os.path.join(regnety_path, "synset_to_human.json")
 
 
 def _get_default_validation_labels_path() -> str:
     self_path = __file__
     path_segments = self_path.split("/")
-    regnety_path = "/".join(path_segments[:-2])
+    regnety_path = "/".join(path_segments[:-1])
     return os.path.join(regnety_path, "valid_labels.txt")
 
 
